@@ -1,0 +1,115 @@
+:root {
+  --roxo-principal: #8E59B4; /* cor de destaque */
+  --rosa-claro: #D3B8C7;
+  --roxo-escuro: #8E617D;
+  --fundo-claro: #ECEDFC;
+  --lilas-suave: #C7B7EA;
+}
+
+
+/* Estilo geral */
+body {
+  background-color: var(--fundo-claro);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+.container {
+  padding: 40px;
+}
+
+
+h1 {
+  color: var(--roxo-principal);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+/* Campo e botão */
+input {
+  padding: 10px;
+  width: 260px;
+  border: 2px solid var(--lilas-suave);
+  border-radius: 10px;
+  margin-right: 10px;
+  outline: none;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+
+input:focus {
+  border-color: var(--roxo-principal);
+  box-shadow: 0 0 6px var(--roxo-principal);
+}
+
+
+button {
+  background-color: var(--roxo-principal);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+
+button:hover {
+  background-color: var(--roxo-escuro);
+}
+
+
+/* Card do resultado */
+.resultado {
+  background-color: white;
+  border: 2px solid var(--lilas-suave);
+  border-radius: 15px;
+  width: 320px;
+  margin: 40px auto;
+  padding: 25px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+
+.resultado:hover {
+  transform: scale(1.02);
+}
+
+
+.resultado img {
+  width: 180px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 10px rgba(142, 89, 179, 0.2);
+}
+
+
+.resultado h2 {
+  color: var(--roxo-principal);
+  margin-bottom: 8px;
+}
+
+
+.resultado p {
+  color: var(--roxo-escuro);
+  font-size: 15px;
+}
+
+
+/* Mensagem de erro */
+p {
+  margin-top: 20px;
+  color: var(--rosa-claro);
+  font-weight: 500;
+}
+
+
+ 
